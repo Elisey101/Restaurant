@@ -6,6 +6,13 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import MainCss from "./styles/main.css"
+
+export function links() {
+  return [
+    { rel: 'stylesheet', href: MainCss }, 
+  ];
+}
 
 export default function App() {
   return (
