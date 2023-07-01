@@ -1,24 +1,18 @@
+@font-face{
+	font-family:Roboto;
+	src: url("/fonts/Raleway-VariableFont.ttf");
+}
+
 body{
   margin:0px;
   background-color:rgb(42, 42, 42);
+  color:white;
+  font-family:Roboto;
 }
 
-.header{
-  background-color:rgb(36, 36, 36);
-  height:55px;
+a{
+  text-decoration:none;
+  color:white;
 }
 
-.headerElems{
-  outline:1px solid red;
-  display:flex;
-  list-style-type:none;
-}
-
-/* .logo{
-
-}
-
-.navig{
-  
-} */
 

@@ -7,10 +7,12 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import MainCss from "./styles/main.css"
+import HeaderCss from "./styles/header.css"
 
 export function links() {
   return [
-    { rel: 'stylesheet', href: MainCss }, 
+    { rel: 'stylesheet', href: MainCss },
+    { rel: 'stylesheet', href: HeaderCss },
   ];
 }
 
