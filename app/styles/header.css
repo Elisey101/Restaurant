@@ -19,11 +19,11 @@
 
 .navig{
   color:white;
+  transition:1s ease-out;
 }
 
 .navig :hover{
   color:orange;
-  transition:color 0.3s ease-out;
 }
 
 .logo{
@@ -32,3 +32,6 @@
   align-items:center;
   float:left;
 }
+
+
+
